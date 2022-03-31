@@ -1,0 +1,231 @@
+@import "https://fonts.googleapis.com/css?family=Josefin Sans";
+html,
+body {
+  font-family: Josefin Sans;
+  background-image:url(/final-project/img/maarten-deckers-8RU1Ei3KcPw-unsplash.jpg) ;
+  color: white; /*white*/
+  font-weight: 300;
+  font-size: 20px;
+  overflow-x: hidden;
+  height: auto;
+  width:100%;
+  float:right;
+  text-decoration: none;
+}
+div.transbox {
+  position: relative;
+  top:-475px;
+  float: right;
+  text-align: center;
+  margin: 0;
+  padding-top: none;
+  width: 35%;
+  background-color: #ffffff;
+  border: 3px solid black;
+  opacity: 0.75;
+}
+
+div.transbox p {
+  text-align:justify;
+  margin: 0;
+  font-weight: bold;
+  color: #000000;
+}
+
+p{
+  font-size: 90%;
+  line-height: 1.5;
+  text-align: justify;
+  color:black;
+  text-decoration: none;
+  text-shadow: 0 0 5px hotpink; /*hotpink*/
+  padding:0;
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+ }
+h1{
+  color: black; /*black*/
+  text-shadow: 2px 2px 6px #99a644; /*green*/
+   margin-left:50%;
+  }
+  h2{
+    text-align: center;
+    align-items: center;
+    margin-top: 0px;
+    color: whitesmoke; /*whitesmoke*/
+    text-shadow: 2px 2px 6px hotpink; /*hotpink*/
+    text-decoration: none;
+    }
+h3{
+  margin:10px;
+  text-align:center;
+  color: black; /*black*/
+  text-shadow: 0 0 5px #99a644; /*green*/
+  text-decoration: none;
+  }
+  
+  li{
+    list-style:none;
+    }
+    h4{
+      text-align: center;
+      color: black; /*black*/
+      text-shadow: 0 0 5px #99a644; /*green*/
+      text-decoration: none;
+      }
+
+/*-------- HEADER -----------*/
+nav {
+  background-color: teal; /*teal*/
+  width: 100%;
+  margin-left: -7.px;
+  display: inline-block;
+  height: 165px;
+}
+ul {
+  list-style-type: none;
+  width: 100%;
+  padding-left: 0;
+  margin-top: 2%;
+}
+nav ul li {
+  opacity: 1;
+  padding-top: 0;
+  width: 14%;
+  height: 10px;
+  float: left;
+}
+#sakat{
+  all:unset;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white; /*brown*/
+  font-size: 24px;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+ 
+nav li a img{
+  margin-top:auto;
+  width: 200px;
+  margin-top: -120px;
+}
+img {
+  margin-left: 30px;
+  max-width: 120px;
+  max-height: 120px;
+  }
+
+ .content-container{
+   float:left;
+   height: 550px;
+   width:55%;
+   padding:0;
+ }
+ iframe{
+   margin-left: 110px;
+   padding:0;
+ }
+/*------- //HEADER ----------*/
+
+/*-------- MAIN -------------*/
+section ul li p,
+section ul li h1 {
+  background-size: 80px;
+    padding: 0;
+  text-decoration: none;
+  color:white;
+  text-shadow: 2px 4px black;
+  margin: 0;
+}
+#overmain {
+  list-style-type: none;
+  color: white;
+  text-align: center;
+  padding-bottom: 4%;
+}
+.body {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 20%;
+}
+  /*-------- //MAIN -----------*/
+
+/*-------- FOOTER -----------*/
+footer{
+    float:left;
+    height: 90px;
+    width: 100%;
+    color:white;
+    padding: 40px 40px;
+    background-color: teal;
+    text-decoration:none;
+}
+
+.footer-column{
+    float: left;
+    width: 200px;
+    text-align: center;
+    text-decoration:none;
+}
+
+.footer-nav-title{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+
+.newsletter-container{
+    float: right;
+    width: 450px;
+}
+
+.form-input-container{
+    float: left;
+    width: 100%;
+}
+
+.newsletter-input{
+    width: 70%;
+    height: 25px;
+}
+
+.newsletter-button{
+    width: 18%;
+    height: 25px;
+}
+
+.form-input-container{
+    margin-top: 20px;
+}
+
+.social-footer {
+  padding: 1rem;
+  background: #8a8a8a;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.social-footer .social-footer-icons li:last-of-type {
+  margin-right: 0;
+}
+
+.social-footer .social-footer-icons .fa {
+  font-size: 1.3rem;
+  color: #fefefe;
+}
+
+.social-footer .social-footer-icons .fa:hover {
+  color: #4a4a4a;
+  transition: color 0.3s ease-in;
+}

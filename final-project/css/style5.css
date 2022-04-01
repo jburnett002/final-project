@@ -3,18 +3,57 @@ html,
 body {
   font-family: Josefin Sans;
   background-image:url(/final-project/img/maarten-deckers-8RU1Ei3KcPw-unsplash.jpg) ;
-  color: #3e4546; /*gray*/
+  color: white; /*white*/
   font-weight: 300;
   font-size: 20px;
-  overflow-x: hidden;
   height: auto;
+  width:100%;
+  float:right;
+  text-decoration: none;
 }
+
 p{
   font-size: 90%;
-  line-height: 1.7;
-}
-
-
+  line-height: 1.5;
+  text-align: justify;
+  color:white;
+  text-decoration: none;
+  text-shadow: 4px 4px 9px hotpink; /*hotpink*/
+  padding:0;
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+ }
+h1{
+  color: white; /*white*/
+  text-shadow: 2px 2px 6px hotpink; /*hotpink*/
+   margin-left:36%;
+  }
+  h2{
+    text-align: center;
+    align-items: center;
+    margin-top: 0px;
+    color: whitesmoke; /*whitesmoke*/
+    text-shadow: 2px 2px 6px hotpink; /*hotpink*/
+    text-decoration: none;
+    }
+h3{
+  margin:10px;
+  text-align:center;
+  color: black; /*black*/
+  text-shadow: 0 0 5px #99a644; /*green*/
+  text-decoration: none;
+  }
+  
+  li{
+    list-style:none;
+    }
+    h4{
+      text-align: center;
+      color: black; /*black*/
+      text-shadow: 0 0 5px #99a644; /*green*/
+      text-decoration: none;
+      }
 /*-------- HEADER -----------*/
 nav {
   background-color: teal; /*teal*/
@@ -23,11 +62,6 @@ nav {
   display: inline-block;
   height: 165px;
 }
-h1{
-    float: left;
-    color: #99a644; /*green*/
-    text-shadow: 0 0 1px goldenrod; /*goldenrod*/
-  }
 ul {
   list-style-type: none;
   width: 100%;
@@ -36,52 +70,51 @@ ul {
 }
 nav ul li {
   opacity: 1;
-  padding-top: 6%;
+  padding-top: 2px;
   width: 14%;
-  height: 0;
+  height: 10px;
   float: left;
-  color: goldenrod;/*goldenrod*/
 }
 #sakat{
-  all: unset;
+  all:unset;
 }
 nav ul li a {
   text-decoration: none;
   color: white; /*brown*/
-  font-size: 16px;
+  font-size: 24px;
   font-weight: lighter;
   text-transform: uppercase;
 }
-.logo {
-    width: 80%
-}
+ 
 nav li a img{
-  margin-top: unset;
+  margin-top:auto;
   width: 200px;
-  margin-top: -128px;
+  margin-top: -120px;
 }
+img {
+  margin-left: 30px;
+  max-width: 120px;
+  max-height: 120px;
+  margin-top: -20px;
+  }
 /*------- //HEADER ----------*/
 
 /*-------- MAIN -------------*/
+p{
+  font-size: 90%;
+  line-height: 1.7;
+  text-align:center;
+  text-decoration:none;
+}
 section ul li p,
 section ul li a,
 section ul li h1 {
   background-size: 80px;
-    padding: 0;
+  padding: 0;
   text-decoration: none;
   color:white;
   text-shadow: 2px 4px black;
-  margin: 0;
-}
-.smain {
-  background-image: url("https://images.unsplash.com/photo-1521017432531-fbd92d768814?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  margin-top: 2%;
+  margin: 7;
 }
 #overmain {
   list-style-type: none;
@@ -93,55 +126,117 @@ section ul li h1 {
   background-color:none;
   background-repeat: no-repeat;
   background-size: contain;
-  height: 100px;
+  height: 40px;
   width:50px;
 }
 /*everything*/
-.column {
-  float:left;
-  height: 800px;
-  padding:100px;
-  width:30%;
-  margin-left:15px;
-  margin-top:-150px;
-  background-color:none;
-  text-align: center;
+
+body {
+  counter-reset: cats;
+  font-family: sans-serif;
 }
 .container {
-   display: flex;
-}	
-
-article img{ 
-  height: 340px;
-  width: 300px;
+  display: inline-block;
+  margin-top:-0px;
+}
+input {
+  -webkit-appearance: none;
+  appearance: none;
+  display: none;
+}
+input:checked {
+  counter-increment: cats;
+}
+label {
+  position: relative;
+  display: inline-block;
+  height: 250px;
+  font-size: 3em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1.5em 0.4em;
+  box-sizing: border-box;
+  color: transparent;
+  margin-bottom: 10px;
+  margin-right: 12px;
+  margin-left:80px;
+  width: calc(25% - 9px);
+}
+label:nth-of-type(4n+4) {
+  margin-right: 0;
+}
+  label::before {
+    content: '';
+    display: none;
+    background-image: inherit;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -2;
   }
-  .kitkat {background-color: white}
-  article h3,h4,h5 {
-    font-family: arial;
-    text-align: center;
-    text-shadow: 4px 4px 8px hotpink;
-    font-size: 24px;
-    padding-top: 5px;
-    color: white;
+  label::after {
+    content: '';
+    display: none;
+    background: #111;
+    position: absolute;
+    width: calc(100% - 0.5em);
+    height: calc(100% - 0.5em);
+    top: 0;
+    left: 0;
+    margin: 0.25em;
+    z-index: -1;
   }
-  p {text-align: left;}
+input:checked + label {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+input:checked + label::before,
+input:checked + label::after {
+  display: block;
+}
+input:checked + label img {
+  -webkit-filter: none;
+  filter: none;
+}
 
-  
+.cats-adopted::after {
+  content: counter(cats);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+label[for="boomer"] {
+  background-image: url(/final-project/img/Boomer.jpg);
+  background-size: cover;
+  height:360px;
+}
+label[for="chula"] {
+  background-image: url(/final-project/img/Chula.jpg);
+  background-size: cover;
+  height:360px;
+}
+label[for="meeko"] {
+  background-image: url(/final-project/img/Meeko.jpg);
+  background-size: cover;
+  height:360px;
+}
+label[for="reba"] {
+  background-image: url(/final-project/img/Reba.jpg);
+  background-size: cover;
+  height:360px;
+}
+label[for="sable"] {
+  background-image: url(/final-project/img/Sable.jpg);
+  background-size: cover;
+  height:360px;
+}
+label[for="simba"] {
+  background-image: url(/final-project/img/Simba.jpg);
+  background-size: cover;
+  height:360px;
+}
 /*-------- //MAIN -----------*/
 
 /*-------- FOOTER -----------*/
@@ -150,7 +245,7 @@ footer{
   height: 90px;
   width: 100%;
   color:white;
-  padding: 40px 40px;
+  padding: 40px 20px;
   background-color: teal;
   text-decoration:none;
 }
@@ -163,9 +258,11 @@ footer{
 }
 
 .footer-nav-title{
-  font-size: 20px;
-  margin-bottom: 20px;
+  font-size: 16px;
   font-weight: bold;
+  margin:0;
+  color:white;
+  text-shadow: 3px 3px 9px hotpink;
 }
 
 .newsletter-container{
@@ -184,12 +281,14 @@ footer{
 }
 
 .newsletter-button{
+  margin-top: 5px;
   width: 18%;
   height: 25px;
 }
 
 .form-input-container{
-  margin-top: 20px;
+  margin-top: 40px;
+  float:right;
 }
 
 .social-footer {

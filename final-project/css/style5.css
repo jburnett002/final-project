@@ -2,7 +2,7 @@
 html,
 body {
   font-family: Josefin Sans;
-  background-color: black;
+  background-image:url(/final-project/img/maarten-deckers-8RU1Ei3KcPw-unsplash.jpg) ;
   color: #3e4546; /*gray*/
   font-weight: 300;
   font-size: 20px;
@@ -52,18 +52,6 @@ nav ul li a {
   font-weight: lighter;
   text-transform: uppercase;
 }
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-  }
-  
-  .fa:hover {
-    opacity: 0.7;
-  }
-  
 .logo {
     width: 80%
 }
@@ -97,136 +85,62 @@ section ul li h1 {
 }
 #overmain {
   list-style-type: none;
-  color: black;
+  color: white;
   text-align: center;
   padding-bottom: 4%;
 }
 .body {
-  background-color: black;
+  background-color:none;
   background-repeat: no-repeat;
-  background-size: 100%;
-  height: 20%;
+  background-size: contain;
+  height: 100px;
+  width:50px;
 }
 /*everything*/
-article {
-    gap: 1.5m;
-    display: grid;
-    padding: 20px;
-    grid-template-columns: 4fr 2fr;
-    font-family: Roboto, sans-serif;
-    font-weight: 300;
+.column {
+  float:left;
+  height: 800px;
+  padding:100px;
+  width:30%;
+  margin-left:15px;
+  margin-top:-150px;
+  background-color:none;
+  text-align: center;
+}
+.container {
+   display: flex;
+}	
+
+article img{ 
+  height: 340px;
+  width: 300px;
   }
-  p {
-    color: grey;
-  }
-  h1 {
-    color: black;
-    font-weight: 700;
-  }
-  h2 {
+  .kitkat {background-color: white}
+  article h3,h4,h5 {
+    font-family: arial;
     text-align: center;
-    color: mediumpurple;
-    text-decoration: underline;
-    font-weight: 500;
+    text-shadow: 4px 4px 8px hotpink;
+    font-size: 24px;
+    padding-top: 5px;
+    color: white;
   }
-  h3 {
-    text-align: center;
-    color: mediumpurple;
-    text-decoration: underline;
-    font-weight: 500;
-  }
-  h4 {
-    text-align: center;
-    color: mediumpurple;
-    text-decoration: underline;
-    font-weight: 500;
-  }
-  /*header*/
-  header {
-    border: solid mediumpurple 4px;
-    margin: 10px;
-    padding: 5px;
-    grid-column: 1/3;
-    background: mediumpurple;
-    text-align: center;
-  }
-  /*gallery*/
-  .gallery {
-    margin: 10px;
-    grid-column: 1/3;
-    grid-row: 2/3;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    background: lavender;
-    gap: 10px;
-    padding: 10px;
-    border: solid mediumpurple 4px;
-  }
-  .gallery img {
-    width: 200px;
-    height: 150px;
-  }
-  /*main content*/
-  .about {
-    border: solid mediumpurple 4px;
-    padding: 10px;
-    margin: 10px;
-    grid-column: 1/2;
-    background: lavender;
-  }
-  .columns {
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-  }
-  .shop {
-    background: lavender;
-    border: solid white 4px;
-    padding: 15px;
-    margin: 4px;
-  }
-  /*breeds*/
-  .breeds {
-    margin: 10px;
-    padding: 5px;
-    border: solid mediumpurple 4px;
-    grid-column: 2/3;
-    grid-row: 3/3;
-    background: lavender;
-    display: grid;
-    color: grey;
-  }
-  .categories {
-    border: solid white 4px;
-    padding: 2px;
-    margin: 4px;
-  }
-  /*preparing*/
-  .secondary-content {
-    margin: 10px;
-    border: solid mediumpurple 4px;
-    grid-column: 1/2;
-    padding: 20px;
-    background: lavender;
-  }
-  /*resources*/
-  .resources {
-    background: lavender;
-    grid-column: 2/3;
-    grid-row: 4/5;
-    margin: 10px 1px;
-    padding: 1em;
-    border: solid mediumpurple 4px;
-  }
-  a {
-    color: grey;
-    text-decoration: none;
-  }
-  a:hover {
-    color: mediumpurple;
-    text-decoration: underline;
-  }
+  p {text-align: left;}
+
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*-------- //MAIN -----------*/
 

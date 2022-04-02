@@ -113,7 +113,7 @@ body{
   text-align: center;
 }
 .blur-img{
-  background-image: url(/final-project/img/teal\ coffee\ bg.jpg);
+  background-image: url(/img/teal\ coffee\ bg.jpg);
   background-size:cover;
   background-repeat: no-repeat;
   margin-top:20px;
@@ -211,7 +211,7 @@ body{
   border: rgb(190, 186, 186) 6px double;
 }
 .bg-img{
-  background: url(/final-project/img/nathan-dumlao-ikU3J1nr52w-unsplash.jpg);
+  background: url(/img/nathan-dumlao-ikU3J1nr52w-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

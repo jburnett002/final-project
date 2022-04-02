@@ -255,49 +255,60 @@ footer{
   width: 200px;
   text-align: center;
   text-decoration:none;
+  margin-top: 30px;
+  margin-left: 50px;
 }
 
 .footer-nav-title{
   font-size: 16px;
   font-weight: bold;
-  margin:0;
+  margin-top:-20px;
   color:white;
   text-shadow: 3px 3px 9px hotpink;
+  float: right;
+  margin-right:70px;
 }
 .wrapper{
-  margin: 30px;
+  margin: 50px;
 }
 
 
 .newsletter-container{
-  float: right;
   margin-top: -50px;
-  position:relative;
   width:100%;
-  height:100px;
+  height:100%;
+  position:relative;
+  z-index:99;
+  margin-left:50px;
 }
 
 .form-input-container{
-  width: 100%;
-  margin-top: 40px;
-  float: left;
-  margin-right:50px;
-  left: 0px;
-  top: 0px;
-  z-index: -1;
+  float:right;
+  width: 20%;
+  color: black;
+  margin-top: 30px;
+  margin-right:-400px;
+  margin-left: 0px;
+  background-color: #fefefe;
 }
 
 .newsletter-input{
   width: 70%;
   height: 25px;
+  margin-left:-200px;
+  margin-right:-100px;
+  float:right;
+  color:black;
   }
 
 .newsletter-button{
-  width: 18%;
+  width: 30%;
   height: 25px;
+  float:right;
 }
 
 .social-footer {
+float: right;
 padding: 1rem;
 background: #8a8a8a;
 display: -webkit-flex;

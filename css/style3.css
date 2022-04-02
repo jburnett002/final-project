@@ -2,7 +2,7 @@
 html,
 body {
   font-family: Josefin Sans;
-  background-image:url("/img/maarten-deckers-8RU1Ei3KcPw-unsplash.jpg");
+  background-image:url("./img/maarten-deckers-8RU1Ei3KcPw-unsplash.jpg");
   color: white; /*white*/
   font-weight: 300;
   font-size: 20px;
@@ -94,7 +94,7 @@ img {
   max-height: 120px;
   }
 
-  @import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+  @import url("//fonts.googleapis.com/css?family=Montserrat:300,400,500");
   .contact4 {
     font-family: "Montserrat", sans-serif;
     color: white;

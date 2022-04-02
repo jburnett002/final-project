@@ -2,7 +2,7 @@
 html,
 body {
   font-family: Josefin Sans;
-  background-image:url("/img/maarten-deckers-8RU1Ei3KcPw-unsplash.jpg");
+  background-image:url("./img/maarten-deckers-8RU1Ei3KcPw-unsplash.jpg");
   color: white; /*white*/
   font-weight: 300;
   font-size: 20px;
@@ -208,32 +208,32 @@ input:checked + label img {
 }
 
 label[for="boomer"] {
-  background-image: url("img/Boomer.jpg");
+  background-image: url("./img/Boomer.jpg");
   background-size: cover;
   height:360px;
 }
 label[for="chula"] {
-  background-image: url("img/Chula.jpg");
+  background-image: url("./img/Chula.jpg");
   background-size: cover;
   height:360px;
 }
 label[for="meeko"] {
-  background-image: url("img/Meeko.jpg");
+  background-image: url("./img/Meeko.jpg");
   background-size: cover;
   height:360px;
 }
 label[for="reba"] {
-  background-image: url("img/Reba.jpg");
+  background-image: url("./img/Reba.jpg");
   background-size: cover;
   height:360px;
 }
 label[for="sable"] {
-  background-image:url("img/Sable.jpg");
+  background-image: url("./img/Sable.jpg");
   background-size: cover;
   height:360px;
 }
 label[for="simba"] {
-  background-image: url("img/Simba.jpg");
+  background-image: url("./img/Simba.jpg");
   background-size: cover;
   height:360px;
 }

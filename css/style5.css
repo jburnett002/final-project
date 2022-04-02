@@ -208,12 +208,12 @@ input:checked + label img {
 }
 
 label[for="boomer"] {
-  background-image:url("/final-project/img/Boomer.jpg");
+  background-image: url("/img/Boomer.jpg");
   background-size: cover;
   height:360px;
 }
 label[for="chula"] {
-  background-image: url("/final-project/img/Chula.jpg");
+  background-image: url("/img/Chula.jpg");
   background-size: cover;
   height:360px;
 }

@@ -233,7 +233,7 @@ label[for="sable"] {
   height:360px;
 }
 label[for="simba"] {
-  background-image: url("../img/Simba.jpg");
+  background-image: url("../img/simba.jpg");
   background-size: cover;
   height:360px;
 }
@@ -264,31 +264,37 @@ footer{
   color:white;
   text-shadow: 3px 3px 9px hotpink;
 }
+.wrapper{
+  margin: 30px;
+}
+
 
 .newsletter-container{
   float: right;
-  width: 450px;
+  margin-top: -50px;
+  position:relative;
+  width:100%;
+  height:100px;
 }
 
 .form-input-container{
-  float: left;
   width: 100%;
+  margin-top: 40px;
+  float: left;
+  margin-right:50px;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
 }
 
 .newsletter-input{
   width: 70%;
   height: 25px;
-}
+  }
 
 .newsletter-button{
-  margin-top: 5px;
   width: 18%;
   height: 25px;
-}
-
-.form-input-container{
-  margin-top: 40px;
-  float:right;
 }
 
 .social-footer {
